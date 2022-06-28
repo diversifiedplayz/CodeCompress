@@ -1,7 +1,7 @@
 # Code Compressor
 
 This python script allows you to compress lines of Code into one, which is useful for generators of sorts<br/>
-![codeCompress](https://postimg.cc/fJpzdzw1) <br/>
+![codeCompress](https://i.postimg.cc/YCqhJ0T2/s.png) <br/>
 eg : 
 ```
 Hello World this is first line
