@@ -28,3 +28,6 @@ to install PySimpleGUI `pip3 install pysimplegui` in your terminal
 2. type `python3`  then drag the downloaded main.py file in the terminal
 3. the terminal should look like this `python3 path/to/downloaded/file`, hit enter 
 4. it should open a UI, paste your code, press compress, then copy the required code
+
+Follow on bird app <br/>
+![twitter](https://img.shields.io/twitter/follow/DiversifiedPla1?label=DiversifiedPlayz&logo=twitter&style=for-the-badge)
