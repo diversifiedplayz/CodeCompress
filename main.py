@@ -2,8 +2,7 @@ import PySimpleGUI as sg
 
 global finalCode
 
-sg.theme('Dark')  # Add a little color to your windows
-# All the stuff inside your window. This is the PSG magic code compactor...
+sg.theme('Dark')
 
 layout = [
 
@@ -21,30 +20,24 @@ layout = [
     [sg.Button('Close', font='Helvetica 15', key='-close-',
                border_width=0, button_color='#07a54b', mouseover_colors='#079a46')]
 ]
-# Create the Window
+
 window = sg.Window('minify code', layout, background_color='#0d1b2a')
 text = sg.Text(background_color="#0d1b2a")
 
 
 def minify(inputCode):
-    # print(inputCode)
     global finalCode
     finalCode = inputCode.replace("\n", "\\n")
     finalCode = finalCode.replace("\"", "\\\"")
 
     window['-output-'].update(finalCode)
 
-    # print(finalCode)
-
-
-# Event Loop to process "events"
-
 
 while True:
     event, values = window.read()
     if event == '-copy-':
         sg.clipboard_set(finalCode)
-        # print(pc.paste)
+
     if event == '-minify-':
         minify(values['multi-line'])
     if event == '-close-':
@@ -54,5 +47,5 @@ while True:
 
 window.close()
 
-multiLine = values['multi-line']
-print(multiLine)
+# multiLine = values['multi-line']
+# print(multiLine)
