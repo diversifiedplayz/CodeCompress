@@ -14,7 +14,8 @@ Hello World this is first line\nthis is the \"second\" line of code
 <br/>
 
 # Installation
-
+Download Latest Release: https://github.com/diversifiedplayz/codeCompress/releases/tag/v1.0.0
+<br/>
 ## Dependencies
 
 * [Python ](https://www.python.org) <br/>
