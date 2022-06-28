@@ -7,7 +7,7 @@ sg.theme('Dark')
 layout = [
 
     [sg.Text('Enter Multiple Lines', font='Helvetica 15', justification='center', background_color='#0d1b2a'),
-     sg.Button('minify', font='Helvetica 15', key='-minify-',
+     sg.Button('compress', font='Helvetica 15', key='-minify-',
                border_width=0, button_color='#07a54b', mouseover_colors='#079a46')],
     [sg.Multiline('', size=(56, 7), enter_submits=False, autoscroll=True, do_not_clear=True, pad=(6, 6),
                   font='Helvetica 15',
