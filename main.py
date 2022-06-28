@@ -14,7 +14,8 @@ layout = [
                   key="multi-line", background_color='#22466d', border_width=0, sbar_background_color='#0d1b2a',
                   sbar_arrow_color='#e0e1dd', sbar_frame_color='#0d1b2a', sbar_width=0, sbar_trough_color='#0d1b2a')],
     [sg.Text('Output:', font='Helvetica 15', background_color='#0d1b2a'),
-     sg.InputText('Output here', font='Helvetica 15', key="-output-", background_color='#22466d', border_width=0),
+     sg.InputText('Output here', font='Helvetica 15', key="-output-",
+                  background_color='#22466d', border_width=0),
      sg.Button('Copy', font='Helvetica 15', key='-copy-',
                border_width=0, button_color='#07a54b', mouseover_colors='#079a46', use_ttk_buttons=True)],
     [sg.Button('Close', font='Helvetica 15', key='-close-',
@@ -46,6 +47,3 @@ while True:
         break
 
 window.close()
-
-# multiLine = values['multi-line']
-# print(multiLine)
